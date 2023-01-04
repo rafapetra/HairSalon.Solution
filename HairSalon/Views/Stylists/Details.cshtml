@@ -1,0 +1,43 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ClaireSalon.Models.Stylist
+@using ClaireSalon.Models
+Details for: @Html.DisplayFor(model => model.Name)
+<div>
+  @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<br>
+  @Html.DisplayNameFor(model => model.Specialty): @Html.DisplayFor(model => model.Specialty)
+</div>
+
+
+
+@if (@Model.Clients.Count == 0)
+{
+  <div>No clients have been assigned to this stylist yet.</div>
+}
+else
+{
+  <div> @Html.DisplayFor(model => model.Name)'s Clients:
+</div>
+  <ul>
+  @foreach (Client client in Model.Clients)
+    {
+      <li>@Html.ActionLink($"{client.Name}", "Details", "Clients", new { id = client.ClientId })</li>
+    }
+  </ul>
+}
+<div class="index-content">
+  <div class="row-3">
+    @Html.ActionLink("Edit stylist", "Edit", new { id = Model.StylistId })
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Delete stylist", "Delete", new { id = Model.StylistId })
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Back to stylist list", "Index")
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Home", "Index", "Home")
+  </div>
+</div>

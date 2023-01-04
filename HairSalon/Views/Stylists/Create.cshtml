@@ -1,0 +1,25 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ClaireSalon.Models.Stylist;
+
+<h1>Add a stylist to the team</h1>
+@using (Html.BeginForm())
+{
+  @Html.LabelFor(model => model.Name)
+  @Html.TextBoxFor(model => model.Name)<br>
+  @Html.LabelFor(model => model.Specialty)
+  @Html.TextBoxFor(model => model.Specialty)<br>
+
+  <input type="submit" value="Add new stylist" class="button" />
+}
+
+<div class="index-content">
+  <div class="row-3">
+    @Html.ActionLink("Show all stylists", "Index")
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Home", "Index", "Home")
+  </div>
+</div>

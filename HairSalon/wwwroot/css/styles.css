@@ -1,0 +1,129 @@
+body {
+  background-color: #353b3c;
+  color: #a4d1ab;
+  font-size: 12px;
+}
+
+a {
+  color: #cdfbee;
+}
+
+a:hover {
+  color: #cdfbee;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  font-size: 14px;
+  padding: 0px;
+  gap: 10px;
+  margin-top: 20px;
+  border: #729b79;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+input {
+  width: 150px;
+  background-color: #353b3c;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid #03d0bf;
+  color: aliceblue;
+  margin: 5px;
+}
+
+.button {
+  background-color: #353b3c;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid #03d0bf;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: #3c4345;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid #03d0bf;
+  margin: 5px;
+}
+
+.dropdown {
+  width: 200px;
+  background-color: #353b3c;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid #03d0bf;
+  color: aliceblue;
+  margin: 5px;
+}
+
+div#footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  color: #ccc;
+  background: #333;
+  padding: 8px;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.index-header {
+  order: 0;
+}
+
+.index-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: #353b3c;
+}
+
+.row-2 {
+  order: 1;
+  background-color: #3d4e50;
+  padding: 5px;
+  border-radius: 4px;
+}
+.row-2:hover {
+  background-color: #4a5e60;
+  padding: 5px;
+}
+
+.row-3 {
+  order: 2;
+  background-color: #3d4e50;
+  padding: 5px;
+  border-radius: 4px;
+}
+.row-3:hover {
+  background-color: #4a5e60;
+  padding: 5px;
+}
+.menu-row {
+  order: 1;
+  background-color: #2f3e3f;
+  padding: 5px;
+  border-radius: 4px;
+  color: #6a9eff;
+  margin-bottom: 4px;
+  margin-top: 4px;
+
+
+}

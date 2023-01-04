@@ -1,0 +1,27 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ClaireSalon.Models.Client
+
+<h1>@Html.DisplayFor(model => model.Name)'s Details</h1>
+<div>
+  @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<br>
+  @Html.DisplayNameFor(model => model.Stylist): @Html.DisplayFor(model => model.Stylist.Name)
+</div>
+<div>
+</div>
+<div class="index-content">
+  <div class="row-3">
+    @Html.ActionLink("Edit client", "Edit", new { id = Model.ClientId })
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Delete client", "Delete", new { id = Model.ClientId })
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Back to clients list", "Index")
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Home", "Index", "Home")
+  </div>
+</div>

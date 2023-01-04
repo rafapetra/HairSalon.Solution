@@ -1,0 +1,29 @@
+@{
+  Layout = "_Layout";
+}
+
+@model ClaireSalon.Models.Stylist
+
+<h2>Edit</h2>
+
+<h4>Edit @Html.DisplayFor(model => model.Name)</h4>
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.StylistId)
+  @Html.LabelFor(model => model.Name)
+  @Html.EditorFor(model => model.Name)
+  @Html.LabelFor(model => model.Specialty)
+  @Html.EditorFor(model => model.Specialty)
+
+  <input type="submit" value="Save" />
+}
+
+<div class="index-content">
+  <div class="row-3">
+    @Html.ActionLink("Back to stylist list", "Index")
+  </div>
+  <div class="row-3">
+    @Html.ActionLink("Home", "Index", "Home")
+  </div>
+</div>

@@ -1,0 +1,29 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="index-container">
+  <div class="index-header">
+    <h1>Claire's Hair Salon</h1>
+  </div>
+  <div class="index-content">
+    <div class="menu-row">
+      Clients
+    </div>
+    <div class="row-2">
+      @Html.ActionLink("See all clients", "Index", "Clients")
+    </div>
+    <div class="row-2">
+      @Html.ActionLink("Add new client", "Create", "Clients")
+    </div>
+    <div class="menu-row">
+      Stylists
+    </div>
+    <div class="row-3">
+      @Html.ActionLink("See all stylists", "Index", "Stylists")
+    </div>
+    <div class="row-3">
+      @Html.ActionLink("Add new stylists", "Create", "Stylists")
+    </div>
+  </div>
+</div>
