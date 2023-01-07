@@ -25,13 +25,13 @@ C# and .NET needs to be installed for this project to work. Go [here for Windows
 1. Download this repository by clicking the "Clone or Download" button
 2. Navigate to the folder where it downloaded
 3. Open your terminal and go to HairSalon.Solution > HairSalon
-4. Type in dotnet restore to download necessary packages
-5. Type in dotnet run to run the application
-framework
-make json file / edit
-how 
-
-6. Enjoy the program!
+4. Type in 'dotnet restore' to download necessary packages
+5. Type in 'dotnet run' to run the application
+6. Install Entity Framework package in the root folder. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/configuration-for-entity-framework-core) for instructions.
+7. Download MySQL Workbench and create a database in your localhost. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/introduction-to-mysql-workbench-creating-a-database) for instructions.
+8. Connect the database to the application with MySqlConnector. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/connecting-a-database-to-an-asp-net-core-app-with-mysqlconnector) for instructions. 
+8. Create a 'appsettings.json' file in the project folder 'HairSalon' and 
+9. Enjoy the program!
 
 ## Known Bugs
 
