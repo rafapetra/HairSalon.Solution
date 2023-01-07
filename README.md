@@ -1,14 +1,12 @@
 # Claire's Hair Salon
 
-#### A program that allows the user to order from Pierre's Bakery.
+#### A program that allows the a hair salon buisiness to store and categorize its clients and stylists.
 
 #### By Rafael Petrachini
 
 ## Description
 
-A program for a bakery that allows the user to create a custom order, entering the amount of bread and pastries, returning the total amount to the user, including discounts such as Buy Two Get One Free or 1 for $2 and 3 for $5.
-
-This project was created for the independent project using C# and C#/.NET.
+A program for a hair salon where the management team can add profiles for each of their employees and customers, storing the data and linking stylists with their clients.
 
 ## Technologies Used
 
@@ -26,9 +24,13 @@ C# and .NET needs to be installed for this project to work. Go [here for Windows
 
 1. Download this repository by clicking the "Clone or Download" button
 2. Navigate to the folder where it downloaded
-3. Open your terminal and go to Bakery.Solution > Bakery.Tests
+3. Open your terminal and go to HairSalon.Solution > HairSalon
 4. Type in dotnet restore to download necessary packages
 5. Type in dotnet run to run the application
+framework
+make json file / edit
+how 
+
 6. Enjoy the program!
 
 ## Known Bugs
