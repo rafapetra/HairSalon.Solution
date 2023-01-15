@@ -27,12 +27,11 @@ C# and .NET needs to be installed for this project to work. Go [here for Windows
 2. Navigate to the folder where it downloaded
 3. Open your terminal and go to HairSalon.Solution > HairSalon
 4. Type in 'dotnet restore' to download necessary packages
-5. Type in 'dotnet run' to run the application
-6. Install Entity Framework package in the root folder. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/configuration-for-entity-framework-core) for instructions.
-7. Download MySQL Workbench and create a database in your localhost. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/introduction-to-mysql-workbench-creating-a-database) for instructions.
-8. Connect the database to the application with MySqlConnector. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/connecting-a-database-to-an-asp-net-core-app-with-mysqlconnector) for instructions. 
-8. Create a 'appsettings.json' file in the project folder 'HairSalon' and enter your database name, your localserver/MySQL username and password. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/connecting-a-database-to-an-asp-net-core-app-with-mysqlconnector) for instructions. 
-9. Enjoy the program!
+5. Install Entity Framework package in the root folder. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/configuration-for-entity-framework-core) for instructions.
+6. Download MySQL Workbench and create a database in your localhost. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/introduction-to-mysql-workbench-creating-a-database) for instructions.
+7. Connect the database to the application with MySqlConnector. Create a 'appsettings.json' file in the project folder 'Factory' and enter your database name, your localserver/MySQL username and password. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/connecting-a-database-to-an-asp-net-core-app-with-mysqlconnector) for instructions.
+8. Import the included schema file located in the root folder to your local database. Go [here](https://www.learnhowtoprogram.com/c-and-net-part-time/database-basics/creating-a-test-database-exporting-and-importing-databases-with-mysql-workbench) for instructions.
+9. Type in 'dotnet run' to run the application. Enjoy the program!
 
 ## Known Bugs
 
